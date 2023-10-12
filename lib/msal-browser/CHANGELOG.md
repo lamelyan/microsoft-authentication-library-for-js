@@ -1,8 +1,20 @@
 # Change Log - @azure/msal-browser
 
-This log was last generated on Thu, 05 Oct 2023 18:06:42 GMT and should not be manually modified.
+This log was last generated on Thu, 12 Oct 2023 23:00:02 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 3.3.0
+
+Thu, 12 Oct 2023 23:00:02 GMT
+
+### Minor changes
+
+- Build account objects from cached ID Token #6529 (hemoral@microsoft.com)
+- Added new PublicClientNext and additional Operating Contexts and associated Controllers; Initially to address NestedAppAuth. #6359 (email not defined)
+- Replace custom encoder with TextEncoder in code challenge generator #6560 (thomas.norling@microsoft.com)
+- Preconnect to authority to speed up /token calls #6550 (thomas.norling@microsoft.com)
+- Bump @azure/msal-common to v14.2.0
 
 ## 3.2.0
 

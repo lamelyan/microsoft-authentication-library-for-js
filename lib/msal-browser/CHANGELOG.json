@@ -2,6 +2,45 @@
   "name": "@azure/msal-browser",
   "entries": [
     {
+      "date": "Thu, 12 Oct 2023 23:00:02 GMT",
+      "version": "3.3.0",
+      "tag": "@azure/msal-browser_v3.3.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "hemoral@microsoft.com",
+            "package": "@azure/msal-browser",
+            "commit": "0f5e6c2142889ea9f43d808f270aec9264afd363",
+            "comment": "Build account objects from cached ID Token #6529"
+          },
+          {
+            "author": "email not defined",
+            "package": "@azure/msal-browser",
+            "commit": "618c4caa4bf0fb0bd64128dadb7a0c8a681c6b87",
+            "comment": "Added new PublicClientNext and additional Operating Contexts and associated Controllers; Initially to address NestedAppAuth. #6359"
+          },
+          {
+            "author": "thomas.norling@microsoft.com",
+            "package": "@azure/msal-browser",
+            "commit": "487be359ff08d4c8fc82a7232d04048172023409",
+            "comment": "Replace custom encoder with TextEncoder in code challenge generator #6560"
+          },
+          {
+            "author": "thomas.norling@microsoft.com",
+            "package": "@azure/msal-browser",
+            "commit": "3f02f79c53c5904494e7d8bc15ffab36971a7f26",
+            "comment": "Preconnect to authority to speed up /token calls #6550"
+          },
+          {
+            "author": "beachball",
+            "package": "@azure/msal-browser",
+            "comment": "Bump @azure/msal-common to v14.2.0",
+            "commit": "not available"
+          }
+        ]
+      }
+    },
+    {
       "date": "Thu, 05 Oct 2023 18:06:42 GMT",
       "version": "3.2.0",
       "tag": "@azure/msal-browser_v3.2.0",
