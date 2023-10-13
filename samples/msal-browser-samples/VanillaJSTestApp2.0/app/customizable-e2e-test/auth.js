@@ -15,6 +15,9 @@ async function initializeMsal() {
         myMSALObj = new msal.PublicClientApplication(json.msalConfig);
         myMSALObj.initialize().then(() => {
             setInitializedFlagTrue(); // Used as a flag in the test to ensure that MSAL has been initialized
+            console.log(
+                "MSAL Object: ", myMSALObj
+            )
             myMSALObj.handleRedirectPromise().then(handleResponse).catch(err => {
                 console.error(err);
             });
